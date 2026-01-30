@@ -9,6 +9,9 @@ body {
 
 img {
   height: 350px;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 3px 3px 3px 2px rgb(81, 79, 79); 
 }
 
 .home {
