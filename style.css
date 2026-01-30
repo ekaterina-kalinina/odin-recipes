@@ -28,5 +28,20 @@ img {
 h1 {
   font-size: 60px;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
+}
+
+h3 {
+  font-size: 35px;
+  margin: 30px 0px 10px 0px;
+}
+
+p, ul, ol {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.unordered-home {
+  font-size: 26px;
+  margin: 10px 0px;
 }
