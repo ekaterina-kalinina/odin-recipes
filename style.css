@@ -16,16 +16,19 @@ img {
 }
 
 .green-link {
-  background-color: rgb(1, 101, 11); 
-  color: white; 
+  background-color: rgb(1, 101, 11);
+  color: white;
   padding: 15px;
   font-size: 30px;
   text-decoration: none;
   font-weight: 500;
-  box-shadow: 3px 3px 3px 2px rgb(137, 134, 134); 
   display: inline-block;
   margin: 5px 0px 15px 0px;
   text-align: center;
+ }
+
+.green-link:hover {
+   box-shadow: 3px 3px 3px 2px rgb(137, 134, 134);
 }
 
 h1 {
