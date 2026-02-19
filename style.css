@@ -25,6 +25,7 @@ img {
   box-shadow: 3px 3px 3px 2px rgb(137, 134, 134); 
   display: inline-block;
   margin: 5px 0px 15px 0px;
+  text-align: center;
 }
 
 h1 {
@@ -55,8 +56,8 @@ p, ul, ol {
 .previous, .next {
   font-size: 24px;
   margin-top: 15px;
-  text-align: center;
   min-width: 200px;
+  flex-shrink: 0;
 }
 
 .previous-and-next {
