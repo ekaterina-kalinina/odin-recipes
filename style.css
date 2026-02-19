@@ -58,7 +58,6 @@ p, ul, ol {
 
 .previous, .next, .back-to-top {
   font-size: 24px;
-  margin-top: 15px;
   min-width: 200px;
   flex-shrink: 0;
   margin-bottom: 0;
@@ -68,6 +67,7 @@ p, ul, ol {
   display: flex;
   justify-content: space-between;
   gap: 15px;
+  margin: 15px 0 10px 0;
 }
 
 .top-link {
