@@ -56,15 +56,21 @@ p, ul, ol {
   margin: 20px 0px 30px 0px;
 }
 
-.previous, .next {
+.previous, .next, .back-to-top {
   font-size: 24px;
   margin-top: 15px;
   min-width: 200px;
   flex-shrink: 0;
+  margin-bottom: 0;
 }
 
 .previous-and-next {
   display: flex;
   justify-content: space-between;
   gap: 15px;
+}
+
+.top-link {
+  display: flex;
+  justify-content: flex-end;
 }
